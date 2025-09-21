@@ -53,7 +53,7 @@ class AdsInitializerHelper {
             withContext(Dispatchers.Main) {
                 Toast.makeText(
                     ContextUtils.getApplicationContext(),
-                    "AdBlock hosts lists start updating...",
+                    R.string.adblock_hosts_lists_start_updating,
                     Toast.LENGTH_LONG
                 ).show()
             }
@@ -76,9 +76,9 @@ class AdsInitializerHelper {
 
         private fun showInitializationResultToast(isInitialized: Boolean, isUpdated: Boolean) {
             val message = when {
-                isInitialized && !isUpdated -> "AdBlock hosts lists initialized"
-                !isInitialized -> "AdBlock hosts lists initialized failed"
-                else -> "AdBlock hosts lists initialized and updated"
+                isInitialized && !isUpdated -> R.string.adblock_hosts_lists_initialized
+                !isInitialized -> R.string.adblock_hosts_lists_initialized_failed
+                else -> R.string.adblock_hosts_lists_initialized_and_updated
             }
             Toast.makeText(
                 ContextUtils.getApplicationContext(), message, Toast.LENGTH_LONG
