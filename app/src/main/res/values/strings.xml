@@ -109,4 +109,8 @@
     <string name="bookmarks_list">Bookmarks</string>
     <string name="is_auto_dark">Auto Theme Mode</string>
     <string name="check_every_request_on_audio">Check every request on audio</string>
+    <string name="adblock_hosts_lists_start_updating">AdBlock hosts lists start updating...</string>
+    <string name="adblock_hosts_lists_initialized">AdBlock hosts lists initialized</string>
+    <string name="adblock_hosts_lists_initialized_failed">AdBlock hosts lists initialized failed</string>
+    <string name="adblock_hosts_lists_initialized_and_updated">AdBlock hosts lists initialized and updated</string>
 </resources>
